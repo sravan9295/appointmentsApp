@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.bg-container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+}
+
+.app-content {
+  background-color: whitesmoke;
+  padding: 2em;
+  margin: 1em;
+}
+.add-appointment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.horizontalLine {
+  height: 2px;
+  background-color: black;
+}
